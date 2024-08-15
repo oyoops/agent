@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "AI Marketing Agent"
+version = "0.1.0"
+description = "AI Marketing Agent"
+authors = ["naimkatiman <naimkatiman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = "^0.51.1"
+flask = "^3.0.3"
+boto3 = "^1.34.161"
+pytest = "^8.3.2"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
