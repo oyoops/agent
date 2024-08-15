@@ -1,0 +1,39 @@
+AWSConfigurationTemplateVersion: 1.1.0.0
+EnvironmentConfigurationMetadata:
+  Description: Configuration for AI Web App Elastic Beanstalk environment
+
+EnvironmentTier:
+  Type: Standard
+  Name: WebServer
+
+OptionSettings:
+  aws:elasticbeanstalk:environment:
+    EnvironmentType: LoadBalanced
+  aws:elasticbeanstalk:container:python:
+    WSGIPath: src.ai_web_app.main:app
+  aws:autoscaling:launchconfiguration:
+    InstanceType: t2.micro
+  aws:autoscaling:asg:
+    MinSize: 1
+    MaxSize: 4
+  aws:elasticbeanstalk:application:environment:
+    PYTHONPATH: "/var/app/current:$PYTHONPATH"
+
+Files:
+  "/etc/nginx/conf.d/proxy.conf":
+    mode: "000644"
+    owner: root
+    group: root
+    content: |
+      client_max_body_size 20M;
+
+  "/opt/elasticbeanstalk/hooks/appdeploy/post/run_supervisor_app.sh":
+    mode: "000755"
+    owner: root
+    group: root
+    content: |
+      #!/usr/bin/env bash
+      . /opt/elasticbeanstalk/support/envvars
+      
+      # Start application
+      supervisorctl -c /opt/python/etc/supervisord.conf start application
