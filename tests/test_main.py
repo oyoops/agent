@@ -52,16 +52,14 @@ def test_sentiment_route_no_data(client):
     assert "No text provided for sentiment analysis" in response.json["message"]
 
 @patch('ai_web_app.main.config')
-def test_disabled_features(mock_config, app, client):
-    mock_config.return_value = {
+def test_disabled_features(app, client):
+    with patch.dict(app.config, {
         'features': {
             'enable_data_analysis': False,
             'enable_recommendations': False,
             'enable_sentiment_analysis': False
         }
-    }
-    
-    with app.app_context():
+    }):
         response = client.post('/analyze', json={"data": "test"})
         assert response.status_code == 403
         assert "Data analysis feature is currently disabled" in response.json["message"]
