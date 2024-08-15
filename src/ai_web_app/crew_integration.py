@@ -6,6 +6,10 @@ class AICrewManager:
         self.model_name = model_name
         self.max_tokens = max_tokens
         self.temperature = temperature
+        self.llm_config = {
+            'model': self.model_name,
+            'temperature': self.temperature
+        }
 
         self.analyst = Agent(
             role='Data Analyst',
@@ -14,10 +18,7 @@ class AICrewManager:
             verbose=True,
             allow_delegation=False,
             tools=[],
-            llm_config={
-                'model': self.model_name,
-                'temperature': self.temperature
-            }
+            llm_config=self.llm_config
         )
         
         self.recommender = Agent(
@@ -27,10 +28,7 @@ class AICrewManager:
             verbose=True,
             allow_delegation=False,
             tools=[],
-            llm_config={
-                'model': self.model_name,
-                'temperature': self.temperature
-            }
+            llm_config=self.llm_config
         )
 
         self.sentiment_analyzer = Agent(
@@ -40,11 +38,10 @@ class AICrewManager:
             verbose=True,
             allow_delegation=False,
             tools=[],
-            llm_config={
-                'model': self.model_name,
-                'temperature': self.temperature
-            }
+            llm_config=self.llm_config
         )
+
+    # ... (rest of the methods remain the same)
 
     def analyze_data(self, data):
         task = Task(
