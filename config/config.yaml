@@ -1,0 +1,46 @@
+# Application Settings
+app:
+  name: AI Web App
+  debug: true
+  secret_key: ${SECRET_KEY}  # Will be loaded from environment variable
+
+# Server Settings
+server:
+  host: 0.0.0.0
+  port: 5000
+
+# Database Settings (if needed in the future)
+database:
+  url: ${DATABASE_URL}  # Will be loaded from environment variable
+
+# AI Settings
+ai:
+  model_name: gpt-3.5-turbo
+  max_tokens: 150
+  temperature: 0.7
+
+# Logging
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+# AWS Settings (for deployment)
+aws:
+  region: us-west-2
+  s3_bucket: ${AWS_S3_BUCKET}  # Will be loaded from environment variable
+
+# Feature Flags
+features:
+  enable_recommendations: true
+  enable_data_analysis: true
+
+# Environments
+environments:
+  development:
+    debug: true
+    logging:
+      level: DEBUG
+  production:
+    debug: false
+    logging:
+      level: WARNING
