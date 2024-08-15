@@ -12,40 +12,18 @@ def create_app(config_path='config/config.yaml'):
         config = yaml.safe_load(config_file)
 
     app = Flask(__name__)
-    app.config.update(config['app'])
+    app.config.update(config)
 
     ai_crew_manager = AICrewManager(
         api_key=os.getenv('OPENAI_API_KEY'),
-        model_name=config['ai']['model_name'],
-        max_tokens=config['ai']['max_tokens'],
-        temperature=config['ai']['temperature']
+        model_name=app.config['ai']['model_name'],
+        max_tokens=app.config['ai']['max_tokens'],
+        temperature=app.config['ai']['temperature']
     )
-
-    @app.errorhandler(400)
-    def bad_request(error):
-        return jsonify({"error": "Bad Request", "message": str(error)}), 400
-
-    @app.errorhandler(403)
-    def forbidden(error):
-        return jsonify({"error": "Forbidden", "message": str(error)}), 403
-
-    @app.errorhandler(404)
-    def not_found(error):
-        return jsonify({"error": "Not Found", "message": "The requested resource was not found"}), 404
-
-    @app.errorhandler(500)
-    def internal_server_error(error):
-        logger.error(f"An error occurred: {error}")
-        return jsonify({"error": "Internal Server Error", "message": "An unexpected error occurred"}), 500
-
-    @app.route('/')
-    def home():
-        logger.info("Home route accessed")
-        return f"Welcome to {config['app']['name']}!"
 
     @app.route('/analyze', methods=['POST'])
     def analyze_data():
-        if not config['features'].get('enable_data_analysis', True):
+        if not app.config['features'].get('enable_data_analysis', True):
             logger.warning("Data analysis feature is disabled")
             return jsonify({"error": "Feature Disabled", "message": "Data analysis feature is currently disabled"}), 403
         
@@ -66,7 +44,7 @@ def create_app(config_path='config/config.yaml'):
 
     @app.route('/recommend', methods=['POST'])
     def get_recommendation():
-        if not config['features'].get('enable_recommendations', True):
+        if not app.config['features'].get('enable_recommendations', True):
             logger.warning("Recommendations feature is disabled")
             return jsonify({"error": "Feature Disabled", "message": "Recommendations feature is currently disabled"}), 403
         
@@ -87,7 +65,7 @@ def create_app(config_path='config/config.yaml'):
 
     @app.route('/sentiment', methods=['POST'])
     def analyze_sentiment():
-        if not config['features'].get('enable_sentiment_analysis', True):
+        if not app.config['features'].get('enable_sentiment_analysis', True):
             logger.warning("Sentiment analysis feature is disabled")
             return jsonify({"error": "Feature Disabled", "message": "Sentiment analysis feature is currently disabled"}), 403
         
@@ -111,7 +89,7 @@ def create_app(config_path='config/config.yaml'):
 if __name__ == '__main__':
     app = create_app()
     app.run(
-        host=app.config['HOST'],
-        port=app.config['PORT'],
-        debug=app.config['DEBUG']
+        host=app.config['server']['host'],
+        port=app.config['server']['port'],
+        debug=app.config['app']['debug']
     )
