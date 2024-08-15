@@ -58,3 +58,5 @@ openai_key.env
 # Other sensitive files
 *.pem
 *.key
+
+requitements.txt
