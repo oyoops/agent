@@ -1,10 +1,11 @@
 import pytest
 from ai_web_app import create_app
-from unittest.mock import patch
 
 @pytest.fixture
 def app():
-    return create_app('tests/test_config.yaml')
+    app = create_app('tests/test_config.yaml')
+    app.config['TESTING'] = True
+    return app
 
 @pytest.fixture
 def client(app):
@@ -53,13 +54,15 @@ def test_sentiment_route_no_data(client):
 
 @patch('ai_web_app.main.config')
 def test_disabled_features(app, client):
-    with patch.dict(app.config, {
-        'features': {
-            'enable_data_analysis': False,
-            'enable_recommendations': False,
-            'enable_sentiment_analysis': False
-        }
-    }):
+    # Temporarily modify the app's configuration for this test
+    original_config = app.config['features'].copy()
+    app.config['features'] = {
+        'enable_data_analysis': False,
+        'enable_recommendations': False,
+        'enable_sentiment_analysis': False
+    }
+
+    try:
         response = client.post('/analyze', json={"data": "test"})
         assert response.status_code == 403
         assert "Data analysis feature is currently disabled" in response.json["message"]
@@ -71,3 +74,6 @@ def test_disabled_features(app, client):
         response = client.post('/sentiment', json={"text": "test"})
         assert response.status_code == 403
         assert "Sentiment analysis feature is currently disabled" in response.json["message"]
+    finally:
+        # Restore the original configuration
+        app.config['features'] = original_config
