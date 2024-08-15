@@ -1,5 +1,5 @@
 import pytest
-from ai_web_app.crew_integration import AICrewManager
+from ai_web_app import AICrewManager
 from unittest.mock import patch, MagicMock
 
 @pytest.fixture
