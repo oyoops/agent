@@ -48,5 +48,5 @@ def test_agent_initialization(ai_crew_manager):
     assert ai_crew_manager.recommender.role == 'Recommendation Specialist'
     assert ai_crew_manager.sentiment_analyzer.role == 'Sentiment Analyst'
 
-    assert ai_crew_manager.analyst.llm_config['model'] == "test_model"
-    assert ai_crew_manager.analyst.llm_config['temperature'] == 0.7
+    assert ai_crew_manager.llm_config['model'] == "test_model"
+    assert ai_crew_manager.llm_config['temperature'] == 0.7
