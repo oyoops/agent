@@ -1,5 +1,6 @@
 import pytest
 from ai_web_app import create_app
+from unittest.mock import patch
 
 @pytest.fixture
 def app():
@@ -52,10 +53,9 @@ def test_sentiment_route_no_data(client):
     assert response.status_code == 400
     assert "No text provided for sentiment analysis" in response.json["message"]
 
-@patch('ai_web_app.main.config')
 def test_disabled_features(app, client):
     # Temporarily modify the app's configuration for this test
-    original_config = app.config['features'].copy()
+    original_features = app.config['features'].copy()
     app.config['features'] = {
         'enable_data_analysis': False,
         'enable_recommendations': False,
@@ -76,4 +76,4 @@ def test_disabled_features(app, client):
         assert "Sentiment analysis feature is currently disabled" in response.json["message"]
     finally:
         # Restore the original configuration
-        app.config['features'] = original_config
+        app.config['features'] = original_features
