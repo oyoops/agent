@@ -33,6 +33,7 @@ aws:
 features:
   enable_recommendations: true
   enable_data_analysis: true
+  enable_sentiment_analysis: true
 
 # Environments
 environments:
@@ -44,3 +45,4 @@ environments:
     debug: false
     logging:
       level: WARNING
+
