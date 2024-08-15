@@ -13,6 +13,8 @@ This is an AI-powered web application built with Python, Flask, and Crew.ai, dep
    ```
    poetry shell
    ```
+4. Copy `openai_key.env.example` to `openai_key.env` and add your OpenAI API key
+5. Review and update `config/config.yaml` as needed
 
 ## Local Development
 
@@ -21,6 +23,18 @@ To run the application locally:
 ```
 python src/ai_web_app/main.py
 ```
+
+## Configuration
+
+The application uses a `config.yaml` file located in the `config/` directory. Review and update this file to change application settings, AI parameters, and feature flags.
+
+## Environment Variables
+
+Sensitive information is stored in environment variables. Create a `openai_key.env` file based on the `openai_key.env.example` template and add your API keys and other sensitive data.
+
+## Logging
+
+Logging is configured in `src/ai_web_app/logging_config.py`. Adjust the logging level and format in `config.yaml` as needed.
 
 ## AWS Deployment
 
@@ -46,14 +60,9 @@ python src/ai_web_app/main.py
 
 To add new AI features:
 
-1. Create new agent definitions in `src/ai_web_app/crew_integration.py`
-2. Add new methods to the `AICrewManager` class for specific AI tasks
-3. Create new routes in `src/ai_web_app/main.py` to expose the AI functionality
-
-## Monitoring and Scaling
-
-- Use AWS CloudWatch to monitor application performance
-- Adjust auto-scaling settings in the Elastic Beanstalk console or by modifying the `config/aws-config.yaml` file
+1. Update `config.yaml` with any new AI-related settings
+2. Modify `src/ai_web_app/crew_integration.py` to add new agent definitions or tasks
+3. Update `src/ai_web_app/main.py` to expose new AI functionality via API endpoints
 
 ## Running Tests
 
