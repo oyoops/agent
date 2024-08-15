@@ -1,4 +1,4 @@
-from .main import app
+from .main import create_app
 from .crew_integration import AICrewManager
 
-__all__ = ['app', 'AICrewManager']
+__all__ = ['create_app', 'AICrewManager']
