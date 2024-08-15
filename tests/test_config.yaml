@@ -1,7 +1,6 @@
 app:
   name: AI Web App Test
   debug: true
-  secret_key: test_secret_key
 
 server:
   host: 127.0.0.1
