@@ -1,11 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import Flask, send_from_directory, request, jsonify
 from functools import wraps
-from .crew_integration import AICrewManager
+from ai_web_app.crew_integration import AICrewManager
 from dotenv import load_dotenv
 import os
 import yaml
 from werkzeug.exceptions import BadRequest, InternalServerError, Unauthorized
-from .logging_config import setup_logger, logger as app_logger
+from ai_web_app.logging_config import setup_logger, logger as app_logger
 
 # This should be stored securely, preferably in a database
 TOKENS = {
@@ -35,7 +35,7 @@ def create_app(config_path='config/config.yaml'):
     with open(config_path, 'r') as config_file:
         config = yaml.safe_load(config_file)
 
-    app = Flask(__name__)
+    app = Flask(__name__, static_folder='../../frontend/build', static_url_path='')
     app.config.update(config)
 
     global app_logger
@@ -48,6 +48,14 @@ def create_app(config_path='config/config.yaml'):
         temperature=app.config['ai']['temperature']
     )
 
+    @app.route('/', defaults={'path': ''})
+    @app.route('/<path:path>')
+    def serve(path):
+        if path != "" and os.path.exists(app.static_folder + '/' + path):
+            return send_from_directory(app.static_folder, path)
+        else:
+            return send_from_directory(app.static_folder, 'index.html')
+
     @app.errorhandler(BadRequest)
     def handle_bad_request(e):
         app_logger.warning(f"Bad request: {str(e)}")
@@ -58,12 +66,7 @@ def create_app(config_path='config/config.yaml'):
         app_logger.error(f"Internal server error: {str(e)}")
         return jsonify(error="Internal Server Error", message="An unexpected error occurred"), 500
 
-    @app.route('/')
-    def home():
-        app_logger.info("Home route accessed")
-        return f"Welcome to {app.config['app']['name']}!"
-
-    @app.route('/analyze', methods=['POST'])
+    @app.route('/api/analyze', methods=['POST'])
     @token_required
     def analyze_data():
         if not app.config['features'].get('enable_data_analysis', True):
@@ -84,7 +87,7 @@ def create_app(config_path='config/config.yaml'):
             app_logger.error(f"Error during data analysis: {str(e)}", exc_info=True)
             raise InternalServerError("An error occurred during data analysis")
 
-    @app.route('/recommend', methods=['POST'])
+    @app.route('/api/recommend', methods=['POST'])
     @token_required
     def get_recommendation():
         if not app.config['features'].get('enable_recommendations', True):
@@ -105,7 +108,7 @@ def create_app(config_path='config/config.yaml'):
             app_logger.error(f"Error during recommendation: {str(e)}", exc_info=True)
             raise InternalServerError("An error occurred during recommendation generation")
 
-    @app.route('/sentiment', methods=['POST'])
+    @app.route('/api/sentiment', methods=['POST'])
     @token_required
     def analyze_sentiment():
         if not app.config['features'].get('enable_sentiment_analysis', True):
@@ -126,28 +129,35 @@ def create_app(config_path='config/config.yaml'):
             app_logger.error(f"Error during sentiment analysis: {str(e)}", exc_info=True)
             raise InternalServerError("An error occurred during sentiment analysis")
         
-    @app.route('/generate-content', methods=['POST'])
+    @app.route('/api/generate-content', methods=['POST'])
     @token_required
     def generate_content():
         if not app.config['features'].get('enable_content_generation', True):
-            app_logger.warning("Content generation feature is disabled")
-            return jsonify(error="Feature Disabled", message="Content generation feature is currently disabled"), 403
+         app_logger.warning("Content generation feature is disabled")
+        return jsonify(error="Feature Disabled", message="Content generation feature is currently disabled"), 403
+    
+    try:
+        data = request.json
+        if not data or 'topic' not in data or 'content_type' not in data:
+            raise BadRequest("Topic and content type must be provided")
         
-        try:
-            data = request.json
-            if not data or 'topic' not in data or 'content_type' not in data:
-                raise BadRequest("Topic and content type must be provided")
-            
-            app_logger.info(f"Generating content for topic: {data['topic']}")
-            content = ai_crew_manager.generate_content(data['topic'], data['content_type'])
-            return jsonify(content)
-        except BadRequest as e:
-            raise
-        except Exception as e:
-            app_logger.error(f"Error during content generation: {str(e)}", exc_info=True)
-            raise InternalServerError("An error occurred during content generation")
+        app_logger.info(f"Generating content for topic: {data['topic']}")
+        crew_output = ai_crew_manager.generate_content(data['topic'], data['content_type'])
+        
+        # Extract the relevant content from CrewOutput
+        content = {
+            'result': crew_output.result,
+            'task_output': crew_output.task_output
+        }
+        
+        return jsonify(content)
+    except BadRequest as e:
+        raise
+    except Exception as e:
+        app_logger.error(f"Error during content generation: {str(e)}", exc_info=True)
+        raise InternalServerError("An error occurred during content generation")
 
-    @app.route('/comprehensive-analysis', methods=['POST'])
+    @app.route('/api/comprehensive-analysis', methods=['POST'])
     @token_required
     def comprehensive_analysis():
         if not app.config['features'].get('enable_comprehensive_analysis', True):
