@@ -21,6 +21,10 @@ def create_app(config_path='config/config.yaml'):
         temperature=app.config['ai']['temperature']
     )
 
+    @app.route('/')
+    def home():
+        return f"Welcome to {app.config['app']['name']}!"
+
     @app.route('/analyze', methods=['POST'])
     def analyze_data():
         if not app.config['features'].get('enable_data_analysis', True):
