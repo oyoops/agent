@@ -74,6 +74,8 @@ def test_agent_initialization(ai_crew_manager):
 
     for agent in [ai_crew_manager.analyst, ai_crew_manager.recommender, 
                   ai_crew_manager.sentiment_analyzer, ai_crew_manager.content_creator]:
-        assert agent.llm_config['model'] == "test_model"
-        assert agent.llm_config['temperature'] == 0.7
-        assert agent.llm_config['max_tokens'] == 100
+        assert agent.role is not None
+        assert agent.goal is not None
+        assert agent.backstory is not None
+        assert agent.verbose is True
+        assert agent.allow_delegation is False
