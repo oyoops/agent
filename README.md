@@ -1,102 +1,88 @@
-# 🤖 AI Web App: Your Friendly Neighborhood AI Assistant
+# 🤖 AI Web App
 
-<div align="center">
-  <img src="https://media.giphy.com/media/3o7TKGAJ7CLp95cNI4/giphy.gif" alt="AI Robot" width="300">
-</div>
+## 🌟 Overview
 
-Welcome to the AI Web App, where we turn coffee ☕ into code and code into AI magic! 🎩✨
+AI Web App is a Flask-based application that leverages the power of CrewAI to provide intelligent data analysis, recommendations, and sentiment analysis. This project demonstrates the integration of AI capabilities into a web application, making it easy to deploy and scale AI-powered services.
 
-## 🚀 Quick Start
+## 🚀 Features
 
-<details>
-<summary>Click me if you're ready for an adventure! 🗺️</summary>
+- 📊 Data Analysis: Analyze complex datasets and provide insightful results.
+- 🎯 Personalized Recommendations: Generate tailored recommendations based on user data.
+- 😃 Sentiment Analysis: Determine the sentiment of text inputs.
+- 🔧 Configurable AI Agents: Easily add or modify AI agents to extend functionality.
+- 🔒 Feature Toggles: Enable or disable specific AI features as needed.
 
-1. Clone this repo (no time machines required):
+## 🛠️ Installation
+
+1. Clone the repository:
    ```
-   git clone https://github.com/your-username/ai-web-app.git
-   ```
-2. Enter the matrix:
-   ```
+   git clone https://github.com/yourusername/ai-web-app.git
    cd ai-web-app
    ```
-3. Summon the AI spirits:
+
+2. Set up a virtual environment:
    ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
+3. Install dependencies:
+   ```
+   pip install poetry
    poetry install
    ```
-4. Awaken the app:
+
+4. Set up environment variables:
+   - Copy `.env.example` to `.env`
+   - Add your OpenAI API key to the `.env` file
+
+## 🖥️ Usage
+
+1. Start the application:
    ```
    poetry run python src/ai_web_app/main.py
    ```
-5. Visit `http://localhost:5000` and prepare to be amazed! 🎉
 
-</details>
-
-## 🧠 What's Inside?
-
-<details>
-<summary>Peek into the AI's brain... if you dare! 🕵️‍♂️</summary>
-
-- `src/ai_web_app/main.py`: The maestro orchestrating our AI symphony
-- `src/ai_web_app/crew_integration.py`: Where AI agents come to party
-- `tests/`: A gladiatorial arena for our code to prove its worth
-
-</details>
-
-## 🎭 Meet the AI Crew
-
-<details>
-<summary>Our all-star cast of AI agents! 🌟</summary>
-
-1. **Data Analyst**: Turns numbers into nuggets of wisdom
-2. **Recommendation Specialist**: Your personal AI shopaholic
-3. **Sentiment Analyzer**: Reads emotions better than your ex
-
-</details>
-
-## 🛠️ API Endpoints
-
-<details>
-<summary>Unleash the power of AI with these magical incantations! 🧙‍♂️</summary>
-
-- `/analyze`: Feed it data, get mind-blowing insights
-- `/recommend`: Tell it your likes, get spot-on suggestions
-- `/sentiment`: Give it text, learn if it's happy, sad, or just meh
-
-</details>
+2. Access the API endpoints:
+   - Home: `GET /`
+   - Analyze Data: `POST /analyze`
+   - Get Recommendation: `POST /recommend`
+   - Analyze Sentiment: `POST /sentiment`
 
 ## 🧪 Running Tests
 
-<details>
-<summary>Watch our code do backflips! 🤸‍♂️</summary>
-
+Run the test suite using pytest:
 ```
-poetry run pytest -v
+poetry run pytest
 ```
-If all tests pass, do a victory dance. If not, blame it on cosmic rays and try again!
 
-</details>
+## 📚 API Documentation
 
-## 🎨 Customization
+### Analyze Data
+- Endpoint: `POST /analyze`
+- Request Body: `{ "data": "Your data here" }`
+- Response: JSON object with analysis results
 
-<details>
-<summary>Make it yours! (No artistic skills required) 🎨</summary>
+### Get Recommendation
+- Endpoint: `POST /recommend`
+- Request Body: `{ "user": "User data here" }`
+- Response: JSON object with personalized recommendations
 
-1. Tweak `config/config.yaml` to adjust the AI's coffee intake (aka parameters)
-2. Add new AI agents in `crew_integration.py`. Maybe a joke-telling agent?
-3. Expand `main.py` with more routes. The sky's the limit!
-
-</details>
+### Analyze Sentiment
+- Endpoint: `POST /sentiment`
+- Request Body: `{ "text": "Text to analyze" }`
+- Response: JSON object with sentiment analysis results
 
 ## 🤝 Contributing
 
-Found a bug? Want to add a feature that makes coffee? We love pull requests! Check out our `CONTRIBUTING.md` file for guidelines. Remember, with great power comes great responsibility... and maybe a job offer from Skynet.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📜 License
+## 📄 License
 
-This project is licensed under the MIT License - see the `LICENSE.md` file for details. Just don't use it to build Terminators, okay?
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## 🙏 Acknowledgements
 
-<div align="center">
-  <i>Built with ❤️, ☕, and a dash of insanity by [Your Name]</i>
-</div>
+- [CrewAI](https://github.com/joaomdmoura/crewAI) for providing the AI framework
+- [Flask](https://flask.palletsprojects.com/) for the web framework
+- [OpenAI](https://openai.com/) for the language model capabilities
