@@ -1,0 +1,611 @@
+2024-08-16 11:52:29,513 - ai_web_app - INFO - Home route accessed
+2024-08-16 11:52:31,190 - ai_web_app - INFO - Analyzing data
+2024-08-16 11:52:31,190 - ai_web_app - INFO - Analyzing data
+2024-08-16 11:52:32,945 - ai_web_app - INFO - Getting recommendation
+2024-08-16 11:52:32,945 - ai_web_app - INFO - Getting recommendation
+2024-08-16 11:52:32,945 - ai_web_app - INFO - Getting recommendation
+2024-08-16 11:52:34,830 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:52:34,830 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:52:34,830 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:52:34,830 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:52:36,773 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:52:36,773 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:52:36,773 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:52:36,773 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:52:36,773 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:52:38,529 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:52:38,529 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:52:38,529 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:52:38,529 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:52:38,529 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:52:38,529 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:52:40,390 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:52:40,390 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:52:40,390 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:52:40,390 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:52:40,390 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:52:40,390 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:52:40,390 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:42,175 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:44,008 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:45,756 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:47,334 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,917 - ai_web_app - WARNING - Missing token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:48,923 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,555 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,560 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,563 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,567 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:52:50,571 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:56:50,026 - ai_web_app - INFO - Home route accessed
+2024-08-16 11:56:51,628 - ai_web_app - INFO - Analyzing data
+2024-08-16 11:56:51,628 - ai_web_app - INFO - Analyzing data
+2024-08-16 11:56:53,207 - ai_web_app - INFO - Getting recommendation
+2024-08-16 11:56:53,207 - ai_web_app - INFO - Getting recommendation
+2024-08-16 11:56:53,207 - ai_web_app - INFO - Getting recommendation
+2024-08-16 11:56:54,795 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:56:54,795 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:56:54,795 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:56:54,795 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 11:56:56,369 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:56:56,369 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:56:56,369 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:56:56,369 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:56:56,369 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 11:56:57,937 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:56:57,937 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:56:57,937 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:56:57,937 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:56:57,937 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:56:57,937 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 11:56:59,515 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:56:59,515 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:56:59,515 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:56:59,515 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:56:59,515 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:56:59,515 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:56:59,515 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:01,105 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:02,705 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:04,298 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:05,936 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,517 - ai_web_app - WARNING - Missing token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:07,521 - ai_web_app - WARNING - Invalid token
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,135 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,139 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,143 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,148 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 11:57:09,152 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:03:50,093 - ai_web_app - INFO - Home route accessed
+2024-08-16 12:03:51,728 - ai_web_app - INFO - Analyzing data
+2024-08-16 12:03:51,728 - ai_web_app - INFO - Analyzing data
+2024-08-16 12:03:53,337 - ai_web_app - INFO - Getting recommendation
+2024-08-16 12:03:53,337 - ai_web_app - INFO - Getting recommendation
+2024-08-16 12:03:53,337 - ai_web_app - INFO - Getting recommendation
+2024-08-16 12:03:54,947 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 12:03:54,947 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 12:03:54,947 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 12:03:54,947 - ai_web_app - INFO - Analyzing sentiment
+2024-08-16 12:03:56,606 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 12:03:56,606 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 12:03:56,606 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 12:03:56,606 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 12:03:56,606 - ai_web_app - INFO - Generating content for topic: AI
+2024-08-16 12:03:58,243 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 12:03:58,243 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 12:03:58,243 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 12:03:58,243 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 12:03:58,243 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 12:03:58,243 - ai_web_app - INFO - Performing comprehensive analysis
+2024-08-16 12:03:59,894 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 12:03:59,894 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 12:03:59,894 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 12:03:59,894 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 12:03:59,894 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 12:03:59,894 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 12:03:59,894 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:01,573 - ai_web_app - WARNING - Bad request: 400 Bad Request: No user data provided
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:03,248 - ai_web_app - WARNING - Bad request: 400 Bad Request: No text provided for sentiment analysis
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:04,994 - ai_web_app - WARNING - Bad request: 400 Bad Request: Topic and content type must be provided
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:06,637 - ai_web_app - WARNING - Bad request: 400 Bad Request: No data provided for analysis
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,430 - ai_web_app - WARNING - Missing token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:08,436 - ai_web_app - WARNING - Invalid token
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,270 - ai_web_app - WARNING - Data analysis feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,275 - ai_web_app - WARNING - Recommendations feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,279 - ai_web_app - WARNING - Sentiment analysis feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,284 - ai_web_app - WARNING - Content generation feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 12:04:10,289 - ai_web_app - WARNING - Comprehensive analysis feature is disabled
+2024-08-16 17:18:39,677 - ai_web_app - INFO - Generating content for topic: how to create Ai agent
+2024-08-16 17:18:39,684 - ai_web_app - ERROR - Error during content generation: 1 validation error for Crew
+verbose
+  Input should be a valid boolean, unable to interpret input [type=bool_parsing, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.8/v/bool_parsing
+Traceback (most recent call last):
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\main.py", line 145, in generate_content
+    content = ai_crew_manager.generate_content(data['topic'], data['content_type'])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\crew_integration.py", line 84, in generate_content
+    result = self._run_crew_task(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\crew_integration.py", line 53, in _run_crew_task
+    crew = Crew(agents=[agent], tasks=[task], verbose=2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\pydantic\main.py", line 193, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Crew
+verbose
+  Input should be a valid boolean, unable to interpret input [type=bool_parsing, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.8/v/bool_parsing
+2024-08-16 17:18:39,695 - ai_web_app - ERROR - Internal server error: 500 Internal Server Error: An error occurred during content generation
+2024-08-16 17:18:40,940 - ai_web_app - INFO - Generating content for topic: how to create Ai agent
+2024-08-16 17:18:40,943 - ai_web_app - ERROR - Error during content generation: 1 validation error for Crew
+verbose
+  Input should be a valid boolean, unable to interpret input [type=bool_parsing, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.8/v/bool_parsing
+Traceback (most recent call last):
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\main.py", line 145, in generate_content
+    content = ai_crew_manager.generate_content(data['topic'], data['content_type'])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\crew_integration.py", line 84, in generate_content
+    result = self._run_crew_task(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\crew_integration.py", line 53, in _run_crew_task
+    crew = Crew(agents=[agent], tasks=[task], verbose=2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\pydantic\main.py", line 193, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Crew
+verbose
+  Input should be a valid boolean, unable to interpret input [type=bool_parsing, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.8/v/bool_parsing
+2024-08-16 17:18:40,952 - ai_web_app - ERROR - Internal server error: 500 Internal Server Error: An error occurred during content generation
+2024-08-16 17:25:30,270 - ai_web_app - INFO - Generating content for topic: How to create Ai Agent
+2024-08-16 17:25:32,859 - ai_web_app - INFO - Generating content for topic: How to create Ai Agent
+2024-08-16 17:25:40,921 - ai_web_app - ERROR - Error during content generation: Object of type CrewOutput is not JSON serializable
+Traceback (most recent call last):
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\main.py", line 146, in generate_content
+    return jsonify(content)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Anaconda\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Anaconda\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Anaconda\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type CrewOutput is not JSON serializable
+2024-08-16 17:25:40,984 - ai_web_app - ERROR - Internal server error: 500 Internal Server Error: An error occurred during content generation
+2024-08-16 17:25:42,610 - ai_web_app - ERROR - Error during content generation: Object of type CrewOutput is not JSON serializable
+Traceback (most recent call last):
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\main.py", line 146, in generate_content
+    return jsonify(content)
+           ^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "D:\Anaconda\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Anaconda\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "D:\Anaconda\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\flask\json\provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type CrewOutput is not JSON serializable
+2024-08-16 17:25:42,618 - ai_web_app - ERROR - Internal server error: 500 Internal Server Error: An error occurred during content generation
+2024-08-16 17:30:10,704 - ai_web_app - ERROR - Error during content generation: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+Traceback (most recent call last):
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\main.py", line 140, in create_app
+    data = request.json
+           ^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+2024-08-16 17:31:24,811 - ai_web_app - ERROR - Error during content generation: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
+Traceback (most recent call last):
+  File "D:\Aiproject\ai_web_app\src\ai_web_app\main.py", line 140, in create_app
+    data = request.json
+           ^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Aiproject\ai_web_app\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of request context.
+
+This typically means that you attempted to use functionality that needed
+an active HTTP request. Consult the documentation on testing for
+information about how to avoid this problem.
