@@ -12,10 +12,11 @@ def app():
 def client(app):
     return app.test_client()
 
-def test_home_route(client):
+def test_home_route(client, app):
     response = client.get('/')
     assert response.status_code == 200
-    assert b"Welcome to AI Web App" in response.data
+    expected_message = f"Welcome to {app.config['app']['name']}!"
+    assert expected_message.encode() in response.data
 
 @patch('ai_web_app.main.AICrewManager.analyze_data')
 def test_analyze_route(mock_analyze, client):
