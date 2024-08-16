@@ -1,11 +1,11 @@
 from flask import Flask, send_from_directory, request, jsonify
 from functools import wraps
-from ai_web_app.crew_integration import AICrewManager
+from .crew_integration import AICrewManager
 from dotenv import load_dotenv
 import os
 import yaml
 from werkzeug.exceptions import BadRequest, InternalServerError, Unauthorized
-from ai_web_app.logging_config import setup_logger, logger as app_logger
+from .logging_config import setup_logger, logger as app_logger
 
 # This should be stored securely, preferably in a database
 TOKENS = {
@@ -133,29 +133,22 @@ def create_app(config_path='config/config.yaml'):
     @token_required
     def generate_content():
         if not app.config['features'].get('enable_content_generation', True):
-         app_logger.warning("Content generation feature is disabled")
-        return jsonify(error="Feature Disabled", message="Content generation feature is currently disabled"), 403
-    
-    try:
-        data = request.json
-        if not data or 'topic' not in data or 'content_type' not in data:
-            raise BadRequest("Topic and content type must be provided")
+            app_logger.warning("Content generation feature is disabled")
+            return jsonify(error="Feature Disabled", message="Content generation feature is currently disabled"), 403
         
-        app_logger.info(f"Generating content for topic: {data['topic']}")
-        crew_output = ai_crew_manager.generate_content(data['topic'], data['content_type'])
-        
-        # Extract the relevant content from CrewOutput
-        content = {
-            'result': crew_output.result,
-            'task_output': crew_output.task_output
-        }
-        
-        return jsonify(content)
-    except BadRequest as e:
-        raise
-    except Exception as e:
-        app_logger.error(f"Error during content generation: {str(e)}", exc_info=True)
-        raise InternalServerError("An error occurred during content generation")
+        try:
+            data = request.json
+            if not data or 'topic' not in data or 'content_type' not in data:
+                raise BadRequest("Topic and content type must be provided")
+            
+            app_logger.info(f"Generating content for topic: {data['topic']}")
+            content = ai_crew_manager.generate_content(data['topic'], data['content_type'])
+            return jsonify(content)
+        except BadRequest as e:
+            raise
+        except Exception as e:
+            app_logger.error(f"Error during content generation: {str(e)}", exc_info=True)
+            raise InternalServerError("An error occurred during content generation")
 
     @app.route('/api/comprehensive-analysis', methods=['POST'])
     @token_required
