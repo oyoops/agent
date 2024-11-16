@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/ai_web_app/main.py",  // Adjust based on your actual main file
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/ai_web_app/main.py"
+    }
+  ]
+}
